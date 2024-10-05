@@ -1,0 +1,53 @@
+@import "../../../assets/styles/variables"
+
+.Form
+	padding-top: 125px
+	padding-bottom: 227px
+	background-color: $gray_3
+
+	.title
+		font-size: $heading-h1-font-size
+		font-weight: $heading-h1-font-weight
+		line-height: $heading-h1-line-height
+
+	.form
+		display: flex
+		align-items: center
+		margin: 64px 0 0 0
+		gap: 0 40px
+
+		textarea
+			width: 560px
+			height: 216px
+			border: 1px solid $gray_1
+			background: transparent
+			border-radius: 12px
+			font-size: $body-text-2-font-size
+			font-weight: $body-text-2-font-weight
+			line-height: $body-text-2-line-height
+			padding: 18px 14px
+			outline: none
+			resize: none
+
+		.confirm
+			width: 560px
+			height: 216px
+			display: flex
+			flex-direction: column
+
+			input
+				border: none
+				border-bottom: 1px solid $gray_1
+				font-size: $body-text-2-font-size
+				font-weight: $body-text-2-font-weight
+				line-height: $body-text-2-line-height
+				outline: none
+				padding: 10px 0 16px
+				background-color: transparent
+
+			label
+				margin: 32px 0 48px
+
+			button
+				max-width: unset
+				width: 100%
