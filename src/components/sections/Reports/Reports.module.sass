@@ -1,0 +1,40 @@
+@import "../../../assets/styles/variables"
+
+.Reports
+	display: flex
+	justify-content: space-between
+	padding-right: 0
+	padding-top: 92px
+	padding-bottom: 72px
+
+	.left
+		.title
+			font-size: $heading-h1-font-size
+			font-weight: $heading-h1-font-weight
+			line-height: $heading-h1-line-height
+
+		ul
+			list-style-type: none
+			display: flex
+			flex-direction: column
+			margin: 36px 0 80px
+			padding: 0
+			gap: 20px 0
+			li
+				display: flex
+				align-items: flex-start
+
+				svg
+					margin: 0 20px 0 4px
+
+				span
+					font-size: $body-text-1-font-size
+					font-weight: $body-text-1-font-weight
+					line-height: $body-text-1-line-height
+					max-width: 449px
+					margin-top: -4px
+
+	.right
+		img
+			height: 482px
+			width: auto
