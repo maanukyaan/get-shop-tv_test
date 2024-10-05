@@ -1,0 +1,32 @@
+@import "../../assets/styles/variables"
+
+.Nav
+	display: flex
+	justify-content: space-between
+	align-items: center
+	padding-top: 50px
+	padding-bottom: 40px
+	margin-bottom: 116px
+	backdrop-filter: blur( 4px )
+
+	position: fixed
+	top: 0
+	left: 0
+	z-index: 1000
+
+	.menu
+		display: flex
+		list-style-type: none
+		padding: 0
+		margin: 0
+		gap: 0 30px
+		li
+			a
+				transition: color .2s ease
+				text-decoration: none
+				color: $black
+				&:hover
+					color: $orange
+				&.active
+					color: $orange
+					text-decoration: underline
