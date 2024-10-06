@@ -36,7 +36,7 @@ function Reports() {
 				<MainButton variant='black'>Заказать звонок</MainButton>
 			</div>
 			<div className={classes.right}>
-				<img alt='Notebook' src='/img/notebook.png' />
+				<img alt='Notebook' src='/img/notebook.webp' />
 			</div>
 		</div>
 	);
